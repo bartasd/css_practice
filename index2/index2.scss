@@ -1,0 +1,76 @@
+$BACKGR_COLOR: lightgrey;
+$CUBE_COLOR: white;
+$FIRST_COLOR: rgb(45, 192, 233);
+$SECOND_COLOR: rgb(247, 121, 37);
+
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  background-color: $BACKGR_COLOR;
+}
+
+body > div {
+  margin-top: calc((100vh - 20vw) / 2);
+  margin-left: 30vw;
+
+  div {
+    background-color: white;
+    width: 20vw;
+    height: 20vw;
+    border: 1px solid grey;
+    display: inline-block;
+    text-align: center;
+
+    h1 {
+      background-color: white;
+      color: $FIRST_COLOR;
+      margin-top: 30px;
+      font-size: 46px;
+    }
+
+    h2 {
+      font-size: 18px;
+      background-color: white;
+      color: grayscale($color: #666666);
+      margin-top: 15px;
+    }
+
+    p {
+      margin-top: 20px;
+      background-color: white;
+      color: grey;
+      font-size: bold;
+    }
+
+    p:first-of-type {
+      margin-top: 50px;
+    }
+
+    p:last-of-type {
+      background-color: $FIRST_COLOR;
+      height: 50px;
+      width: 150px;
+      display: inline-block;
+      border-radius: 5px;
+
+      span {
+        margin-top: 17px;
+        display: block;
+        background-color: $FIRST_COLOR;
+        color: white;
+      }
+    }
+  }
+  div:last-of-type {
+    h1 {
+      color: $SECOND_COLOR;
+    }
+    p:last-of-type {
+      background-color: $SECOND_COLOR;
+      span {
+        background-color: $SECOND_COLOR;
+      }
+    }
+  }
+}

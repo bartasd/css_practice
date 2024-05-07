@@ -1,0 +1,48 @@
+body {
+  background-image: url(./assets/b.jpg);
+  background-size: cover;
+}
+
+body,
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+body > div {
+  background-color: white;
+  margin-left: 10vw;
+  margin-top: 10vh;
+  width: 80vw;
+  height: 80vh;
+  border-radius: 10px;
+  overflow: hidden;
+}
+body > div div {
+  height: 80%;
+  width: 40%;
+  background-color: rgb(31, 115, 224);
+  margin-left: 5%;
+  margin-top: 5%;
+  display: inline-block;
+  border-radius: 20px;
+}
+body > div div h1 {
+  font-size: 48px;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+body > div div p {
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+body > div div p:last-of-type {
+  margin-top: 20px;
+}
+body > div div:last-of-type {
+  margin-left: 10%;
+  background-color: pink;
+}
+
+/*# sourceMappingURL=index5.css.map */

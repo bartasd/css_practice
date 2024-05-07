@@ -1,0 +1,54 @@
+$BOX_W: 500px;
+$BOX_H: 400px;
+
+body,
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+body > div {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./assets/11087641-old-wooden-wall.jpg);
+  background-size: cover;
+
+  div {
+    display: inline-block;
+    width: $BOX_W;
+    height: $BOX_H;
+    color: white;
+    margin-left: calc(50vw - $BOX_W/2);
+    margin-top: calc(100vh - $BOX_H);
+    text-align: center;
+
+    h1 {
+      margin-bottom: 24px;
+    }
+    p {
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      margin-bottom: 24px;
+    }
+    form {
+      backdrop-filter: blur(30px);
+      display: inline-block;
+      margin-bottom: 16px;
+      padding: 10px 10px;
+      border-radius: 5px;
+      input {
+        padding: 10px 5px;
+        display: inline-block;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        background-color: white;
+      }
+      input[type="submit"] {
+        background-color: rgb(78, 166, 216);
+        font-size: 12px;
+        color: white;
+      }
+    }
+  }
+}

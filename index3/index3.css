@@ -1,0 +1,78 @@
+body,
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+body > div {
+  width: 100vw;
+  height: 100vh;
+  display: inline-block;
+  position: relative;
+}
+body > div div {
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+}
+body > div div:first-of-type {
+  height: 100vh;
+}
+body > div div:first-of-type img {
+  width: 50vw;
+  background-size: cover;
+}
+body > div div:last-of-type {
+  left: 50vw;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+body > div div:last-of-type img {
+  height: 120px;
+  margin-top: 15vh;
+}
+body > div div:last-of-type h1 {
+  font-size: 54px;
+  width: 350px;
+  margin-top: 30px;
+}
+body > div div:last-of-type form {
+  margin-top: 30px;
+}
+body > div div:last-of-type form input {
+  margin: 0;
+  margin-bottom: 10px;
+  width: 400px;
+  line-height: 3rem;
+  outline-color: darkgrey;
+}
+body > div div:last-of-type form input {
+  margin: 0;
+  margin-bottom: 10px;
+  width: 400px;
+  line-height: 3rem;
+  outline-color: darkgrey;
+  font-size: 16px;
+  color: darkgrey;
+  font-weight: bold;
+  padding: 0 20px;
+}
+body > div div:last-of-type form input[type=submit] {
+  background-color: rgb(131, 181, 66);
+  width: 444px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 4px rgb(68, 94, 34);
+  font-size: 16px;
+  color: white;
+}
+body > div div:last-of-type p:first-of-type {
+  margin-top: 5px;
+  color: darkgrey;
+}
+body > div div:last-of-type p:last-of-type {
+  margin-top: 5px;
+  color: lightgrey;
+}
+
+/*# sourceMappingURL=index3.css.map */

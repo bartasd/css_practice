@@ -1,0 +1,82 @@
+body {
+  font-size: 0;
+}
+
+body,
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+/* NAV */
+
+nav {
+  width: 100vw;
+  height: 50px;
+  background-color: black;
+  display: inline-block;
+}
+
+nav > p {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  width: 80px;
+  height: 100%;
+  text-align: center;
+  border-right: 2px solid white;
+  display: inline-block;
+}
+
+nav > p:first-of-type {
+  margin-left: 10%;
+}
+
+span {
+  margin-top: 17px;
+  display: block;
+}
+
+/* SECTION */
+
+body > div {
+  background-color: grey;
+  min-height: calc(100vh - 50px);
+  height: auto;
+  width: 100vw;
+  display: inline-block;
+}
+
+/* FIELDS */
+
+body > div > div {
+  background-color: white;
+  margin: 2% 10%;
+}
+
+body > div h1 {
+  font-size: 32px;
+}
+
+body > div p {
+  font-size: 16px;
+}
+
+body > div h1,
+body > div p {
+  margin-left: 2%;
+  padding: 15px 0;
+}
+
+body > div p {
+  line-height: 1.5rem;
+}
+
+/* SPLIT FIELDS */
+
+body > div > div > div {
+  display: inline-block;
+  width: 48.5%;
+  margin-left: 1%;
+}

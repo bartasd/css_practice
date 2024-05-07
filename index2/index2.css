@@ -1,0 +1,65 @@
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  background-color: lightgrey;
+}
+
+body > div {
+  margin-top: calc((100vh - 20vw) / 2);
+  margin-left: 30vw;
+  float: left;
+}
+body > div div {
+  background-color: white;
+  width: 20vw;
+  height: 20vw;
+  border: 1px solid grey;
+  display: inline-block;
+  text-align: center;
+}
+body > div div h1 {
+  background-color: white;
+  color: rgb(45, 192, 233);
+  margin-top: 30px;
+  font-size: 46px;
+}
+body > div div h2 {
+  font-size: 18px;
+  background-color: white;
+  color: #666666;
+  margin-top: 15px;
+}
+body > div div p {
+  margin-top: 20px;
+  background-color: white;
+  color: grey;
+  font-size: bold;
+}
+body > div div p:first-of-type {
+  margin-top: 50px;
+}
+body > div div p:last-of-type {
+  background-color: rgb(45, 192, 233);
+  height: 50px;
+  width: 150px;
+  display: inline-block;
+  border-radius: 5px;
+}
+body > div div p:last-of-type span {
+  margin-top: 17px;
+  display: block;
+  background-color: rgb(45, 192, 233);
+  color: white;
+}
+body > div div:last-of-type h1 {
+  color: rgb(247, 121, 37);
+}
+body > div div:last-of-type p:last-of-type {
+  background-color: rgb(247, 121, 37);
+}
+body > div div:last-of-type p:last-of-type span {
+  background-color: rgb(247, 121, 37);
+}
+
+/*# sourceMappingURL=index2.css.map */

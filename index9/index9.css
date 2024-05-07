@@ -1,0 +1,42 @@
+body,
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./assets/download.jpg);
+  background-size: cover;
+  position: relative;
+  backdrop-filter: blur(3px);
+}
+
+body > div {
+  width: 35vw;
+  height: 20vh;
+  position: absolute;
+  top: 20vh;
+  left: 5vw;
+  color: white;
+}
+body > div h1 {
+  font-size: 46px;
+}
+body > div p {
+  color: darkgrey;
+  margin-top: 20px;
+}
+body > div a {
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+  background-color: orange;
+  padding: 10px 5px;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=index9.css.map */
